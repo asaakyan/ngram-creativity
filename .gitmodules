@@ -1,0 +1,3 @@
+[submodule "creativity_index"]
+	path = creativity_index
+	url = https://github.com/asaakyan/creativity_index.git
