@@ -44,7 +44,7 @@ In addition, the main study also contains the following files:
 # Data for linear models
 
 The for_linear_models folder contains the data processed for fitting the mixed-effects models (see linear_models folder for the analysis code). If you need the actual expressions to be present in the data, you need to request access to the raw data. The folder contains the following files:
-- prehlt_and_hlt.csv: data with both pre-highlighted expression ratings and highlighted expressions. We slightly modified how to incorporate highlighted expressions to make the data release simpler. Specifically, we consider the highlighted expressions as pragmatic and do not remove pre-highlighted expression ratings if they overlap with the highlights. This does not change the results or the claims. See the preprocess_raw_data.ipynb notebook for details.
+- prehlt_and_hlt.csv: data with both pre-highlighted expression ratings and highlighted expressions. We slightly modified how to incorporate highlighted expressions to make the data release simpler. Specifically, we consider the highlighted expressions as pragmatic and do not remove pre-highlighted expression ratings if they overlap with the highlights. This does not substantially change the results or the claims. See the preprocess_raw_data.ipynb notebook for details.
   - prehlt_only.csv: data with only pre-highlighted expression ratings (no highlighted expressions).
 
 TBD: for_models folder contains the data processed for fine-tuning and few-shot evaluation.
