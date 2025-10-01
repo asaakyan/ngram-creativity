@@ -205,3 +205,8 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Custom ignores
+# data files
+data/raw
+data/for_linear_models/with_exprs
