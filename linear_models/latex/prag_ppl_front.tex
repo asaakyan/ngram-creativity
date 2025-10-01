@@ -1,0 +1,33 @@
+
+\usepackage{booktabs}
+
+\begin{table}[htbp]
+\begin{center}
+\begin{tabular}{l c}
+\toprule
+ & \shortstack[l]{pragmatic \textasciitilde{} ppl\_log\_std * gen\_source  \\ 
++ (1 \textbar{} annotator) + \\ 
+(1 \textbar{} seed\_passage\_id)} \\
+\midrule
+(Intercept)                        & $2.63 \; [ 1.60; 3.66]^{*}$ \\
+ppl\_log\_std                      & $0.16 \; [-0.29; 0.61]$     \\
+gen\_sourceclaude                  & $1.66 \; [ 0.06; 3.26]^{*}$ \\
+gen\_sourcegpt5                    & $0.20 \; [-1.32; 1.71]$     \\
+ppl\_log\_std:gen\_sourceclaude    & $-0.43 \; [-1.26; 0.40]$    \\
+ppl\_log\_std:gen\_sourcegpt5      & $-0.37 \; [-0.98; 0.24]$    \\
+\midrule
+AIC                                & $613.98$                    \\
+BIC                                & $656.38$                    \\
+Log Likelihood                     & $-298.99$                   \\
+Num. obs.                          & $1481$                      \\
+Num. groups: annotator             & $12$                        \\
+Num. groups: seed\_passage\_id     & $5$                         \\
+Var: annotator (Intercept)         & $1.62$                      \\
+Var: seed\_passage\_id (Intercept) & $0.09$                      \\
+\bottomrule
+\multicolumn{2}{l}{\scriptsize{$^*$ 0 outside the confidence interval.}}
+\end{tabular}
+\caption{Mixed-effects logistic regression predicting creativity from standardized PPL (comparing humans and frontier models)}
+\label{tab:glmer_ppl_prag_src_front}
+\end{center}
+\end{table}

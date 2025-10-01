@@ -1,0 +1,32 @@
+
+\usepackage{booktabs}
+
+\begin{table}[htbp]
+\begin{center}
+\begin{tabular}{l c}
+\toprule
+ & \shortstack[l]{creative \textasciitilde{} gen\_source  \\ 
++ (1 \textbar{} annotator) + \\ 
+(1 \textbar{} seed\_passage\_id)} \\
+\midrule
+(Intercept)                        & $-3.08 \; [-3.42; -2.74]^{*}$ \\
+gen\_sourceclaude                  & $-0.67 \; [-1.14; -0.20]^{*}$ \\
+gen\_sourcegpt5                    & $-0.69 \; [-1.17; -0.21]^{*}$ \\
+gen\_sourceolmo1                   & $-0.67 \; [-0.90; -0.43]^{*}$ \\
+gen\_sourceolmo2                   & $-0.50 \; [-0.73; -0.27]^{*}$ \\
+\midrule
+AIC                                & $6048.07$                     \\
+BIC                                & $6102.78$                     \\
+Log Likelihood                     & $-3017.03$                    \\
+Num. obs.                          & $18322$                       \\
+Num. groups: seed\_passage\_id     & $50$                          \\
+Num. groups: annotator             & $26$                          \\
+Var: seed\_passage\_id (Intercept) & $0.35$                        \\
+Var: annotator (Intercept)         & $0.52$                        \\
+\bottomrule
+\multicolumn{2}{l}{\scriptsize{$^*$ 0 outside the confidence interval.}}
+\end{tabular}
+\caption{Mixed-effects logistic regression predicting creativity from generation source (comparing humans and all models)}
+\label{tab:glmer_nov_src_front}
+\end{center}
+\end{table}

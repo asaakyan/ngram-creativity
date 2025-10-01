@@ -1,0 +1,33 @@
+
+\usepackage{booktabs}
+
+\begin{table}[htbp]
+\begin{center}
+\begin{tabular}{l c}
+\toprule
+ & \shortstack[l]{pragmatic \textasciitilde{} ppl\_log\_std * gen\_source  \\ 
++ (1 \textbar{} annotator) + \\ 
+(1 \textbar{} seed\_passage\_id)} \\
+\midrule
+(Intercept)                        & $3.91 \; [ 3.30;  4.53]^{*}$  \\
+ppl\_log\_std                      & $0.02 \; [-0.16;  0.19]$      \\
+gen\_sourceolmo1                   & $-1.48 \; [-1.79; -1.16]^{*}$ \\
+gen\_sourceolmo2                   & $0.44 \; [ 0.08;  0.79]^{*}$  \\
+ppl\_log\_std:gen\_sourceolmo1     & $-0.19 \; [-0.43;  0.04]$     \\
+ppl\_log\_std:gen\_sourceolmo2     & $-0.50 \; [-0.81; -0.19]^{*}$ \\
+\midrule
+AIC                                & $2763.08$                     \\
+BIC                                & $2818.48$                     \\
+Log Likelihood                     & $-1373.54$                    \\
+Num. obs.                          & $7516$                        \\
+Num. groups: seed\_passage\_id     & $50$                          \\
+Num. groups: annotator             & $26$                          \\
+Var: seed\_passage\_id (Intercept) & $0.31$                        \\
+Var: annotator (Intercept)         & $1.99$                        \\
+\bottomrule
+\multicolumn{2}{l}{\scriptsize{$^*$ 0 outside the confidence interval.}}
+\end{tabular}
+\caption{Mixed-effects logistic regression predicting creativity from standardized PPL}
+\label{tab:glmer_ppl_prag_src}
+\end{center}
+\end{table}
