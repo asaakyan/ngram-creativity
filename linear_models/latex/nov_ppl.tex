@@ -5,23 +5,24 @@
 \begin{center}
 \begin{tabular}{l c}
 \toprule
- & \shortstack[l]{creative \textasciitilde{} ppl\_log\_std + \\ 
-(1 \textbar{} gen\_source) + (1 \textbar{} annotator) + \\ 
+ & \shortstack[l]{creative \textasciitilde{} ppl\_log\_std + gen\_source + (1 \textbar{} annotator) + \\ 
 (1 \textbar{} seed\_passage\_id)} \\
 \midrule
-(Intercept)                        & $-3.68 \; [-4.17; -3.19]^{*}$ \\
-ppl\_log\_std                      & $0.68 \; [ 0.60;  0.75]^{*}$  \\
+(Intercept)                        & $-3.29 \; [-3.64; -2.94]^{*}$ \\
+ppl\_log\_std                      & $0.67 \; [ 0.59;  0.76]^{*}$  \\
+gen\_sourceolmo1                   & $-0.63 \; [-0.87; -0.38]^{*}$ \\
+gen\_sourceolmo2                   & $-0.61 \; [-0.85; -0.37]^{*}$ \\
 \midrule
-AIC                                & $5210.46$                     \\
-BIC                                & $5248.87$                     \\
-Log Likelihood                     & $-2600.23$                    \\
-Num. obs.                          & $16031$                       \\
+$R^2_m$ (theoretical)              & $0.12$                        \\
+$R^2_c$ (theoretical)              & $0.30$                        \\
+AIC                                & $5066.55$                     \\
+BIC                                & $5112.53$                     \\
+Log Likelihood                     & $-2527.28$                    \\
+Num. obs.                          & $15725$                       \\
 Num. groups: seed\_passage\_id     & $50$                          \\
 Num. groups: annotator             & $26$                          \\
-Num. groups: gen\_source           & $3$                           \\
-Var: seed\_passage\_id (Intercept) & $0.37$                        \\
-Var: annotator (Intercept)         & $0.55$                        \\
-Var: gen\_source (Intercept)       & $0.09$                        \\
+Var: seed\_passage\_id (Intercept) & $0.36$                        \\
+Var: annotator (Intercept)         & $0.53$                        \\
 \bottomrule
 \multicolumn{2}{l}{\scriptsize{$^*$ 0 outside the confidence interval.}}
 \end{tabular}

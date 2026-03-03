@@ -1,0 +1,11 @@
+Below you will find a passage for creativity annotation. Your goal is to identify expressions that contribute to this text's uniqueness and creative value through close reading of the passage.
+Find all expressions that are novel in the passage. A novel expression is unusual, surprising, or original given the context of the text. A powerful metaphor, an interesting detail about a character, or an insightful literary technique could all contribute to contextual novelty. For example, a personification "as if the tables have become heavier since she walked in" could be considered surprising and unusual. Find as many expressions as you can but be sure to select only those that are truly novel.
+Important: You will be asked to provide a justification for why you find the expression novel.
+Important: The expression you select has to be novel, unusual, surprising in some way, not simply "strong".
+Example:
+Passage: Then, on the sixth of November, 2015, my dad had a sudden heart attack, the result of a hereditary disease that had already claimed five or six people in my family, the first of them at the end of the Qing dynasty.
+Output:
+{"expression": "the first of them at the end of the Qing dynasty",
+"justification": "the juxtaposition of "first" and "end" in this fragment makes the reader think about the cyclical nature of time, which is a big theme in the rest of the passage. The author hints that while some events (the fall of a dynasty here, later on a disease or a heart attack) may be seen as the decline or final stage of something, they are also new beginnings."}
+Passage:
+{passage}

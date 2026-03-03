@@ -1,0 +1,66 @@
+Below you will find a passage for creativity annotation. Your goal is to identify expressions that contribute to this text's uniqueness and creative value through close reading of the passage.
+Find all expressions that are novel in the passage. A novel expression is unusual, surprising, or original given the context of the text. A powerful metaphor, an interesting detail about a character, or an insightful literary technique could all contribute to contextual novelty. For example, a personification "as if the tables have become heavier since she walked in" could be considered surprising and unusual. Find as many expressions as you can but be sure to select only those that are truly novel.
+Important: You will be asked to provide a justification for why you find the expression novel.
+Important: The expression you select has to be novel, unusual, surprising in some way, not simply "strong".
+Examples:
+Passage:
+He should have a dog, people said. That sounded perfectly reasonable to me. My wife and I have a pair of shelties (as well as two lorikeets, whose chatter provides a tranquil backdrop to our evenings by the fireplace, and one very fat angelfish in a tank all his own, on a stand in my study). One evening at dinner, my wife glanced at me over her reading glasses and said, “Do you know that, according to this article in the paper, ninety-seven per cent of pet owners say their pets make them smile at least once a day?” The shelties—Tim and Tim II—gazed up from beneath the table with wondering eyes as I fed scraps of meat into their mobile and receptive mouths.
+
+“You think I ought to speak with him?” I said. “Gerard, I mean?”
+
+“It couldn’t hurt,” my wife said. And then, the corners of her mouth sinking toward her chin, she added, “The poor man.”
+
+I went to visit him the next day—a Saturday, as it happened. The dogs needed walking, so I took them both with me, by way of example, I suppose, and because when I’m home—and not away on the business that takes me all over the world, sometimes for weeks or even months at a time—I like to give them as much attention as I can. Gerard’s cottage was half a mile or so from our house, and I enjoyed the briskness of the season—it was early December, the holidays coming on, a fresh breeze spanking my cheeks. I let the dogs run free ahead of me and admired the way the pine forest that B. P. Newhouse had planted all those years ago framed and sculpted the sky. The first thing I noticed on coming up the walk was that Gerard hadn’t bothered to rake the leaves from his lawn or cover any of his shrubs against the frost. There were other signs of neglect: the storm windows weren’t up yet, garbage overspilled the two cans in the driveway, and a pine bough, a casualty of the last storm, lay across the roof of the house like the severed hand of a giant. I rang the bell.
+Output:
+[{"expression": "the corners of her mouth sinking toward her chin", "justification": "This is a very unique and fresh way to describe a frown or somber expression."},
+{"expression": "a fresh breeze spanking my cheeks", "justification": "This is a very unique and surprising way of describing a breeze hitting somebody's face."},
+{"expression": "lay across the roof of the house like the severed hand of a giant", "justification": "Describing a felled pine bough as similar to \"the severed hand of a giant\" is delightfully fresh and original."},
+{"expression": "Tim and Tim II", "justification": "it's funny to have pets with the same name"}]
+
+Passage:
+My mother had two treasures. One was an opal ring, the only present she ever received from my late father. She kept it in a small box and took it out only once or twice a year, on special occasions, for a few short hours. The box, which was covered in deep-blue velvet, made a little sound, like a kitten yawning, when it was opened.
+
+When I was alone in the house, I often opened the box to stare at the opal. This wasn’t expressly forbidden, but, child that I was, I somehow felt it was better done in secret.
+
+The ring was old, a fact that was apparent from the state of the box. The cardboard had begun to show through in places where the velvet covering had been rubbed thin, and the address printed inside the lid mentioned a street whose name had changed when the town was rezoned.
+
+The ring was embedded in a wad of cotton batting that was stiff and discolored, and I worried that the unpleasant wrapping might be bad for the gem. But it never occurred to my mother to change it.
+
+When I looked at the opal, I was invariably reminded of ice cream—in particular, a flavor called Starry Night, which was sold at the candy store in front of the station. Vanilla ice cream flecked with orange, pink, yellow, and pale-blue chips of ice. The packaging, too, was quite attractive, an aluminum container as big around as a baby’s head, covered with silver paper stars. The containers were lined up in a freezer case near the store window, but, needless to say, I had never tasted Starry Night, or even seen the real thing. I had only glimpsed the plastic sample displayed on top of the freezer. In fact, I had never had so much as a cookie from that shop, which was far too expensive for us.
+
+I would set the ring on my pencil case or hold it up to the fluorescent light or even try it on for just a moment. But it was too large for any of my fingers, and, as it dangled from my hand, I felt that it was much less appealing than a scoop of Starry Night.
+I always returned the ring before my mother came home. I would replace the cotton and close the lid of the box, taking care not to leave any fingermarks on the velvet.
+Output:
+[{"expression": "as big around as a baby’s head,", "justification": "This simile adds to the imagery of the description."},
+{"expression": "an aluminum container as big around as a baby’s hea", "justification": "Unexpected comparison that matches the narrator's voice in other portions of the text. This narrator seems to appreciate these kinds of unexpected metaphors, which give the text real character."},
+{"expression": "like a kitten yawning", "justification": "This is a good simile for a sound. It's common enough that many people would know that particular sound, but it is also a unique comparison."},
+{"expression": "a flavor called Starry Night", "justification": "Starry night is a fun flavor name."},
+{"expression": "I was invariably reminded of ice cream", "justification": "Unexpected transition and comparison. Bizarre, but intriguing, and sparks a tonal shift."}]
+
+Passage:
+All these towns where there was nothing to do but walk up and down the sidewalks and go in and out of small stores. The ritual seemed important, though, the getting out of the city. Even if you mainly did the same things you would do there, at least here you were relieved of the fatigue of choice. There was only one of everything—one Thai restaurant, one coffee place, one bakery.
+
+They walked all the way to the river. The river didn’t look so wide from here. It was a flat, dull green. They stepped out on the rocks, then stepped back.
+
+The train tracks ran right alongside the water.
+
+Paul took multiple photos of the river. Kate hated photos without people in them—no one ever looks at those kinds of pictures again, she said, but Paul disagreed. And maybe Paul did look at his photos—what did Kate know?—maybe he was regularly scrolling back through his archive of flowers and sunsets and mountaintop views, the collection of things he’d seen, a full moon recorded on his phone as a blurry gape of light.
+
+Paul wanted to go a little way down a private driveway. Just to check it out, he said. He surprised Kate sometimes, what rules he’d break and what rules he’d obey. There were bee boxes stacked in a field. He didn’t know what they were—she did. It was satisfying to have the whiff of rural knowledge.
+
+Paul had grown up going to the beach for the summer months. He was passionate about the ocean. This was represented by the blue rubber bracelet he wore on his wrist until Kate made fun of it and he stopped wearing it. It had been some type of charity Clean Up the Ocean thing.
+
+Kate kept looking at the train tracks. It felt as though a train would come barrelling through at any second, and they were both bracing for it. No train came.
+
+Already the day seemed extremely long. They’d walked the length of Main Street. Browsed through any store they could conceivably enter. It was barely lunchtime.
+Output:
+[{"expression": "blurry gape of light.", "justification": "This is an interesting and apt description of the way a full moon often looks less impressive when photographed."},
+{"expression": "o one ever looks at those kinds of pictures again, she said, but Paul disagreed.", "justification": "This feels like an original, striking insight that reveals a lot about Kate and Paul as people."},
+{"expression": "Kate hated photos without people in them", "justification": "It's interesting and somewhat novel to introduce a character by immediately placing them in conflict with the other character in the scene."},
+{"expression": "what rules he’d break and what rules he’d obey", "justification": "This deepens the characterization of Kate and the characterization of their relationship to one another, suggesting a slight tension between them."},
+{"expression": "This was represented by the blue rubber bracelet he wore on his wrist until Kate made fun of it and he stopped wearing it", "justification": "This complicates the characterization of Kate, showing that she is willing to mock Paul for an innocuous representation of something he cares about. This recontextualizes the preceding paragraphs, suggesting a pattern of tension in the relationship."},
+{"expression": "It was satisfying to have the whiff of rural knowledge", "justification": "I feel like this is unusual and original, making rural knowledge something almost tangible, something \"smellable,\" and the pang of satisfaction Kate feels having it over him."}]
+
+
+Now, analyze the following passage:
+{passage}

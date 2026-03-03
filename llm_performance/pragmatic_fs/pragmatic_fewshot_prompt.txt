@@ -1,0 +1,87 @@
+Below you will find a passage for annotation. Your goal is to identify expressions that may not make sense or flow naturally through close reading of the passage.
+Find all expressions that do not make sense contextually or flow naturally. That is, find all expressions that do not make sense in the context of the text, have logical or continuity issues, or sound awkward, odd, or incoherent with the rest of the text. Find as many expressions as you can but be sure to select only those that are truly not making sense in context or flowing naturally.
+For example, if the previous text describes that "Alice's life became sad and dull" and the expression following it is "And so Alice flourished", describing how happy she is, it could be considered incoherent since it logically contradicts the previous passage.
+Another example: "her fingers tended to his fire" may sound awkward and unnatural.
+Output the expressions and your justification in the following json format:
+[{“expression”: “your answer”, “justification”: “your answer”}]
+Examples:
+Passage:
+James sat in the small shop, surrounded by books and antiquated devices, as Ahmed worked behind the counter. It was a quiet afternoon, and the sound of the store's door closing behind a customer was the only noise breaking the silence. James noticed the absence of roaring business, and as he looked around, he saw the store was a small but well-kept space, filled with dusty shelves of books and a few vintage gadgets.
+
+He caught himself staring at Ahmed, a young Sudanese man, who managed the store. His handsome face, with its sweet smile and delicately carved features, made James' heart skip a beat. As James observed the poorly designed clothes on Ahmed's body, with visible dirt and stains, he couldn't help but wonder how a man so fine could make ends meet in this small shop.
+
+James cleared his throat, and Ahmed looked up from his work, a warm glance reaching his eyes. James felt his mouth grow dry, and he had to force himself to speak. "Excuse me, sir," he said with a smile, wanting to break the awkward silence between them. "I just wanted to express my appreciation for your lovely accent. It's been a while since I've heard such refinement in New York City."
+
+Ahmed smiled politely, his large eyes filling with wonder. "Thank you, Sir," he replied, his voice soft, and his accent as smooth as silk. "I'm originally from Sudan, but I've lived in the city now for quite some time. How may I assist you with your purchases today?"
+
+James thought for a moment, not wanting to make any hasty decisions about purchasing anything. He was a college professor, and he couldn't afford to waste money on unnecessary items. Still, his eyes fell on a worn leather-bound copy of James Baldwin's "Another Country," resting on the dusty shelf. Baldwin's novel had been one of James' favorite works, and its dusty cover reminded him of old memories, making the book seem almost beautiful in its decay.
+
+"Excuse me, sir," James said, holding out his hand. "Would you mind introducing yourself properly? Your name is Ahmed, is it not?"
+
+Ahmed smiled wide, displaying a set of pearly whites. "Ahmed. Pleased to meet you, Professor."
+
+The exchange felt like a breath of fresh air in the stuffy confines of the store. As they spoke, James noticed the way Ahmed's eyes danced when he smiled, and he felt a strange sense of longing that made his heart skip a beat.
+
+Their conversation continued, and James learned how Ahmed had met his wife, a classmate from Columbia University, while studying for his PhD in English. James admired Ahmed's intelligence, knowing that his hard work had earned him a spot in an ivy league institution.
+Output:
+[{"expression": "with its sweet smile and delicately carved features", "justification": "\"Carved features\" is not a typical term of praise. Usually \"sculpted\" is used as a compliment to someone's physique."},
+{"expression": "James noticed the absence of roaring business", "justification": "Strange to negatively rephrase the former \"quiet afternoon\". Unnecessary to me, but others may disagree."},
+{"expression": "As James observed the poorly designed clothes on Ahmed's body", "justification": "I think \"poorly designed\" here is intended to indicate \"ill-fitting\" or something of that nature."},
+{"expression": "a warm glance reaching his eyes", "justification": "The \"he\" here could refer to either James or Ahmed and so is confusing."},
+{"expression": "\"Would you mind introducing yourself properly", "justification": "This is a strange question to ask someone, from my vantage point."},
+{"expression": "displaying a set of pearly whites", "justification": "Phrase feels ominous in a context which I suspect it isn't intended to be so."}]
+
+Passage:
+Tongsu wandered through the barren landscape, his eye-patch hidden beneath a frayed bandana, his remaining toe stretched uncomfortably beneath his worn-out boots. The repurposed Army truck he'd joined several other refugees on had finally broken down, leaving them stranded in the unforgiving expanse.
+
+"I'll find greener pastures," Tongsu murmured to himself, his voice echoing through the desolate land. The mountains loomed near, a hazy mystery beckoning to those brave enough to venture in. Tongsu had left everything behind - family, friends, and even the simple comforts of his settled life in the south. A life that seemed a distant memory, now clouded with pain and loss.
+
+As he ascended the mountainside, the air grew cooler, the air thicker with the scent of pine and the soft crunch of dried leaves beneath his feet. The land was barren, yes, but it held secrets in its very soul. Tongsu saw the potential that existed amidst the rocky terrain, where sparse vegetation clung to life. Farther up, where the path narrowed, he stopped to take in the stunning vista of the mountains, shrouded in mist and whispers of the unseen.
+
+Tongsu was far from alone in his journey. Others who'd walked these treacherous paths had found solace in the solitude, the shared experiences of struggle and perseverance. It was then he realized that the rice and vegetable seeds nestled within his thick, rough bag would become more than mere provisions. They would be a means to restore balance, beauty, and promise to the shattered world they all shared. A testament to the resilience of humanity, even as they continued to endure the effects of disaster and conflict in their homes.
+
+Tongsu knew that life in the settlement, although rife with hardship, had provided him with a sense of belonging, connection, and purpose. And so, he pressed forward, his small sack of seeds a silent testament to the power that can arise from the depths of sorrow, the strength of a shared past, and a hope of a brighter tomorrow.
+
+Tongsu climbed the mountain, his determination undiminished, and he knew that, together with those who trekked along the path with him, they would uncover new avenues of renewal. He would make use of his lost toe and his patch to protect his single remaining eye from the constant battles of his journey. For, in this dark and dismal time, hope remained a flame, burning bright as the fire beneath Tongsu's heart.
+Output:
+[{"expression": "his voice echoing through the desolate land", "justification": "Unclear how a murmur could echo"},
+{"expression": "shrouded in mist and whispers of the unseen", "justification": "\"Whispers of the unseen\" sounds awkward (because of the mixture of \"shrouded,\" \"whispers\" and \"unseen\" -- moving from visual to hearing to visual again) and it's unclear what it means"},
+{"expression": "Others who'd walked these treacherous paths had found solace in the solitude", "justification": "This is a little bit confusing because it directly follows the suggestion that Tongsu is literally climbing with other people; it would've made enough sense of the sentence simply stated \"Others before him had walked these treacherous paths,\" but the juxtaposition of \"far from alone\" with \"found solace in the solitude\" reads clunkily again"},
+{"expression": "the shared experiences of struggle and perseverance", "justification": "\"Solace in the solitude\" and \"shared experiences of struggle\" contradict each other, or at least don't work together to create a clear, cohesive portrait of these \"others\""},
+{"expression": "He would make use of his lost toe and his patch to protect his single remaining eye from the constant battles of his journey", "justification": "in the first paragraph, it's implied that Tongsu only has one toe (it states \"his remaining toe\"); it's not clear how his lost toe or his eye patch could protect his remaining eye, either"}]
+
+Passage:
+It was an unseasonably warm day in June, and the streets were eerily empty as Eun-joo, a middle-aged lady, made her way to the military base where her son, Private Kim Young-min, was stationed. Memories of the snow-laden winters from her childhood came fluttering back, as snowflakes in June simply didn't exist. The fear of missing his arrival kept her marching forward, even though logic whispered it was unlikely. Young-min was wounded during their conflict; he needed her, and she, him.
+
+At the gate, the sentries' eyes glinted behind their protective goggles, and she presented her ID, asking if they knew where Young-min was stationed. They stared back, unknowing, then one of them, a young corporal, stepped forward. Seeing her anxiety, he attempted to soothe her,
+
+"Ma'am, the base is divided into separate units, your son may be in one of our neighbors. I'm certain you'll find him but, bear in mind, the military is a complex system."
+
+Their words hit her like a cold shower, suddenly her panic dissipated, and reason filtered through. She needed more information, and asked for the local commander's office. With a deep breath, she stepped into the air-conditioned building. The officers received her, and her request for information courteously, and one gestured for her to follow him.
+
+After a series of formalities, they led her to a dimly-lit office, where an elderly general sat, his eyes piercing hers. They introduced them, for a moment, her voice trembled, and she begged for enlightenment. The general looked her in the eye, and sighed.
+
+"Ma'am, we see visitors like you everyday. Our soldiers are, mostly, in protective care; your son may, however, be assigned to one of our special units. They aren't based on our grounds, but, you can inquire with the Joint Forces Command." He wrote the number and address on a piece of paper. Her heart skipped. Now armed with direction, she took a step outside, feeling a part of her leave, and
+
+"Thank you," she whispered, as she rushed to her car.
+
+The guard post personnel's stares pierced the windows, but she didn't care. Driving, she dialed the number, and spoke in a breathless mumble, "Private Kim Young-min..." The silence that ensued made her heart drop. On the other end, there was none. The phone was no longer in service.
+
+Reluctantly, she hung up, and dialed another number she'd saved months ago in her phone, in case of emergency.
+
+"Ma'am?" the voice on the other end, an ex-soldier, from her community that'd taken Young-min in, when he was still young;
+
+"Is he here?" she whispered.
+
+"He's not here, Ma'am. He's back in his hometown."
+
+And that, she realized, was a fateful step towards a reunion, but she felt, in that moment of unspoken knowledge, that she'd have to wait for the snowflakes to come at their own pace.
+Output:
+[{"expression": "your son may be in one of our neighbors", "justification": "should be \"neighbour's\""},
+{"expression": "feeling a part of her leave", "justification": "This is a bit odd - in theory, I would consider this as novel, but in the context of the following \"and\" appearing to be cut off, I don't think it make sense."},
+{"expression": "she stepped into the air-conditioned building", "justification": "For this to make sense, it should be clarified whether the \"air-conditioned building\" was the commander's office."},
+{"expression": "and her request for information courteously", "justification": "misplaced commas"},
+{"expression": "and she begged for enlightenment", "justification": "\"Enlightenment\" feels like an odd word choice here."}]
+
+Now, analyze the following passage:
+{passage}

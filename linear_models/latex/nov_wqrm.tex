@@ -9,21 +9,23 @@
 + (1 \textbar{} annotator) + \\ 
 (1 \textbar{} seed\_passage\_id)} \\
 \midrule
-(Intercept)                        & $-5.26 \; [-5.91; -4.62]^{*}$ \\
-WQRM\_score                        & $0.25 \; [ 0.18;  0.32]^{*}$  \\
+(Intercept)                        & $-5.36 \; [-6.01; -4.71]^{*}$ \\
+WQRM\_score                        & $0.26 \; [ 0.19;  0.33]^{*}$  \\
 \midrule
-AIC                                & $5486.40$                     \\
-BIC                                & $5517.13$                     \\
-Log Likelihood                     & $-2739.20$                    \\
-Num. obs.                          & $16031$                       \\
+$R^2_m$ (theoretical)              & $0.02$                        \\
+$R^2_c$ (theoretical)              & $0.22$                        \\
+AIC                                & $5339.09$                     \\
+BIC                                & $5369.74$                     \\
+Log Likelihood                     & $-2665.54$                    \\
+Num. obs.                          & $15725$                       \\
 Num. groups: seed\_passage\_id     & $50$                          \\
 Num. groups: annotator             & $26$                          \\
-Var: seed\_passage\_id (Intercept) & $0.36$                        \\
-Var: annotator (Intercept)         & $0.51$                        \\
+Var: seed\_passage\_id (Intercept) & $0.34$                        \\
+Var: annotator (Intercept)         & $0.49$                        \\
 \bottomrule
 \multicolumn{2}{l}{\scriptsize{$^*$ 0 outside the confidence interval.}}
 \end{tabular}
 \caption{Mixed-effects logistic regression predicting creativity from passage-level WQRM scores}
-\label{tab:glmer_nov_src_front}
+\label{tab:glmer_nov_wqrm}
 \end{center}
 \end{table}

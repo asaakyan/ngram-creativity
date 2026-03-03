@@ -9,21 +9,23 @@
 + (1 \textbar{} annotator) + \\ 
 (1 \textbar{} seed\_passage\_id)} \\
 \midrule
-(Intercept)                        & $1.51 \; [0.58; 2.43]^{*}$ \\
-WQRM\_score                        & $0.28 \; [0.18; 0.38]^{*}$ \\
+(Intercept)                        & $1.48 \; [0.56; 2.41]^{*}$ \\
+WQRM\_score                        & $0.28 \; [0.19; 0.38]^{*}$ \\
 \midrule
-AIC                                & $2825.59$                  \\
-BIC                                & $2853.29$                  \\
-Log Likelihood                     & $-1408.79$                 \\
-Num. obs.                          & $7516$                     \\
+$R^2_m$ (theoretical)              & $0.02$                     \\
+$R^2_c$ (theoretical)              & $0.45$                     \\
+AIC                                & $2816.08$                  \\
+BIC                                & $2843.75$                  \\
+Log Likelihood                     & $-1404.04$                 \\
+Num. obs.                          & $7455$                     \\
 Num. groups: seed\_passage\_id     & $50$                       \\
 Num. groups: annotator             & $26$                       \\
-Var: seed\_passage\_id (Intercept) & $0.75$                     \\
-Var: annotator (Intercept)         & $1.86$                     \\
+Var: seed\_passage\_id (Intercept) & $0.74$                     \\
+Var: annotator (Intercept)         & $1.85$                     \\
 \bottomrule
 \multicolumn{2}{l}{\scriptsize{$^*$ 0 outside the confidence interval.}}
 \end{tabular}
 \caption{Mixed-effects logistic regression predicting pragmaticality from passage-level WQRM scores}
-\label{tab:glmer_nov_src_front}
+\label{tab:glmer_prag_wqrm}
 \end{center}
 \end{table}

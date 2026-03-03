@@ -9,13 +9,15 @@
 + (1 \textbar{} annotator) + \\ 
 (1 \textbar{} seed\_passage\_id)} \\
 \midrule
-(Intercept)                        & $2.63 \; [ 1.60; 3.66]^{*}$ \\
-ppl\_log\_std                      & $0.16 \; [-0.29; 0.61]$     \\
-gen\_sourceclaude                  & $1.66 \; [ 0.06; 3.26]^{*}$ \\
-gen\_sourcegpt5                    & $0.20 \; [-1.32; 1.71]$     \\
-ppl\_log\_std:gen\_sourceclaude    & $-0.43 \; [-1.26; 0.40]$    \\
-ppl\_log\_std:gen\_sourcegpt5      & $-0.37 \; [-0.98; 0.24]$    \\
+(Intercept)                        & $2.70 \; [ 1.67; 3.73]^{*}$ \\
+ppl\_log\_std                      & $0.13 \; [-0.24; 0.49]$     \\
+gen\_sourceclaude                  & $1.47 \; [-0.09; 3.04]$     \\
+gen\_sourcegpt5                    & $0.04 \; [-1.46; 1.53]$     \\
+ppl\_log\_std:gen\_sourceclaude    & $-0.35 \; [-1.02; 0.32]$    \\
+ppl\_log\_std:gen\_sourcegpt5      & $-0.30 \; [-0.80; 0.20]$    \\
 \midrule
+$R^2_m$ (theoretical)              & $0.10$                      \\
+$R^2_c$ (theoretical)              & $0.41$                      \\
 AIC                                & $613.98$                    \\
 BIC                                & $656.38$                    \\
 Log Likelihood                     & $-298.99$                   \\

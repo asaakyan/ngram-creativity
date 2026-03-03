@@ -1,0 +1,8 @@
+Below you will find a passage for annotation. Your goal is to identify expressions that may not make sense or flow naturally through close reading of the passage.
+Find all expressions that do not make sense contextually or flow naturally. That is, find all expressions that do not make sense in the context of the text, have logical or continuity issues, or sound awkward, odd, or incoherent with the rest of the text. Find as many expressions as you can but be sure to select only those that are truly not making sense in context or flowing naturally.
+For example, if the previous text describes that "Alice's life became sad and dull" and the expression following it is "And so Alice flourished", describing how happy she is, it could be considered incoherent since it logically contradicts the previous passage.
+Another example: "her fingers tended to his fire" may sound awkward and unnatural.
+Output the expressions and your justification in the following json format:
+[{“expression”: “your answer”, “justification”: “your answer”}]
+Passage:
+{passage}
