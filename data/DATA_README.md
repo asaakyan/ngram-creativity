@@ -1,6 +1,7 @@
 # Raw data
 
 To obtain the raw data, please navigate to this google form to get the password to the encrypted zip file: https://forms.gle/U58ahCPBbNuXykUJ6
+Please contact me with any questions about the data (or if I take more than 3 business days to provide access) via email a.saakyan@cs.columbia.edu or raise a GitHub issue.
 
 Inside the raw data folder, you will find two folders: frontier_study and main_study. The frontier study is the exploratory study with frontier models, while the main study is the study with OLMo models.
 
