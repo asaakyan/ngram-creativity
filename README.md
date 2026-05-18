@@ -19,13 +19,14 @@ Abstract:
 # Citation
 
 ```
-@inproceedings{
-saakyan2026death,
-title={Death of the Novel(ty): Beyond N-Gram Novelty as a Metric for Textual Creativity},
-author={Arkadiy Saakyan and Najoung Kim and Smaranda Muresan and Tuhin Chakrabarty},
-booktitle={The Fourteenth International Conference on Learning Representations},
-year={2026},
-url={https://openreview.net/forum?id=z2idLjqzBe}
+@misc{saakyan2026deathnoveltyngramnovelty,
+      title={Death of the Novel(ty): Beyond n-Gram Novelty as a Metric for Textual Creativity}, 
+      author={Arkadiy Saakyan and Najoung Kim and Smaranda Muresan and Tuhin Chakrabarty},
+      year={2026},
+      eprint={2509.22641},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2509.22641}, 
 }
 ```
 
